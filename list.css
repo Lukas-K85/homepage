@@ -1,0 +1,22 @@
+.list {
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: rgb(179, 177, 177);
+    border: thin 1px darkorange;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.list__books {
+    line-height: 1.7;
+}
+
+.list__orderer {
+    padding-left: 10px;
+}
+
+.list__item {
+    margin: 10px;
+}

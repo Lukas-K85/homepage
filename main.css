@@ -1,0 +1,35 @@
+.main {
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: thin 1px darkorange;
+    border-radius: 20px;
+    padding: 1%;
+    background: rgb(179, 177, 177);
+
+}
+
+.main__aboutMe {
+    font-size-adjust: initial;
+    line-height: 2.0;
+}
+
+.main__link {
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.main__link:hover {
+    background-color: rgb(52, 67, 131);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.main__link:active {
+    background-color: lightblue;
+}

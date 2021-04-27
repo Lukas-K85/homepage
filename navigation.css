@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation {
+    text-align: center;
+    margin: 40px;;
+}
+
+.navigation__link {
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.navigation__link:hover {
+    background-color: rgb(52, 67, 131);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    background-color: lightblue;
+}

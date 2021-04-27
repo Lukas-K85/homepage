@@ -1,0 +1,30 @@
+.header {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header__name {
+    color: darkorange;
+}
+
+.header__title {
+    background-color: rgba(218, 104, 247, 0.116);
+    border-radius: 5px;
+}
+
+.header__image {
+    border-radius: 10px;
+    border: solid rgba(132, 121, 134, 0.116)
+}
+
+.button {
+    background-color: darkorange;
+    color: white;
+    border-radius: 5px;
+}
+
+.dark {
+    color: #eee;
+    background: #222;
+}

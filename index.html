@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o mnie</title>
+
+    <link href="body.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
+    <link href="navigation.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="list.css" rel="stylesheet">
+    <link href="table.css" rel="stylesheet">
+    <link href="article.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="header">
+
+
+        <h1 class="header__name">Łukasz Kalbarczyk</h1>
+        <h2 class="header__title">Moja pierwsza strona internetowa</h2>
+
+
+        <p><em>Chciałbym zostawić po sobie ślad we wszechświecie (Steve Jobs)</em></p>
+
+        <img class="header__image" src="https://i.postimg.cc/brfQLvb7/Photo.jpg" alt="Łukasz Kalbarczyk">
+
+
+        <p>
+            <button class="button">Włącz <span class="themeName">ciemny</span> motyw</button>
+
+        </p>
+
+    </header>
+    <nav class="navigation">
+        <ol>
+            <a class="navigation__link" href="#o-mnie">O mnie</a>
+            <a class="navigation__link" href="#ulubione-ksiazki">Ulubione książki</a></li>
+            <a class="navigation__link" href="#ulubione-utwory-muzyczne">Ulubione utwory muzyczne</a></li>
+            <a class="navigation__link" href="#moje-marzenie">Moje marzenie</a></li>
+
+        </ol>
+    </nav>
+
+
+    <main class="main">
+        <h2 id="o-mnie">O mnie</h2>
+
+        <p class="main__aboutMe">Cześć! Jestem Łukasz. Od 9 lat pracuję w branży RTV/AGD w handlu detalicznym. W pewnym
+            sensie
+            utknąłem w tym
+            świecie,
+            który jest hermetyczny. W połowie drogi do czterdziestki postawiłem jednak na inwestycję w siebie.
+            I jedną z tych inwestycji jest właśnie nauka w <a class="main__link" target="_blank"
+                href="https://youcode.pl/frontend-developer/">Youcode</a> .
+            Nie jest to łatwe, jeśli posiada się absorbującą pracę oraz, oczywiście, rodzinę i przeróżnego rodzaju
+            obowiązki.
+            Jednak nie poddaję się i małymi krokami będę dążył do celu</b></span>.
+        </p>
+    </main>
+    
+
+    <section class="list" id="ulubione-ksiazki">
+        <h2>Ulubione książki</h2>
+<p class="list__books">W zeszłym roku postanowiłem rzucić sobie wyzwanie i przeczytać co najmniej 52 książki. 
+    Zadanie zostało wykonane z nawiązką w postaci 55 książek. Były to najprzeróżniejsze pozycji, poczynając od klasyki literatory po kryminały.
+    Jednymi z moich ulubionych pisarzy są Szczepan Twardoch oraz Wojciech Chmielarz. Pierwszy pisarz specjalizuje się
+    w literaturze pięknej, drugi z kolei w opowieściach dramatów kryminalnych. Obaj pochodzą z Górnego Śląska, gdzie akcja książek często mam miejsce
+    w regionie, w którym się wychowałem i dalej mieszkam. 
+</p>
+<p>
+    Poniżej tak ptrezentuje się lista moich książek, takie TOP 10:
+</p>
+        <ol class="list__orderer">
+            <li class="list__orderer list__item">Mistrz i Małgorzata</li>
+            <li class="list__orderer list__item">Wielki Gatsby</li>
+            <li class="list__orderer list__item">Gra w klasy</li>
+            <li class="list__orderer list__item">Oto moje powołanie</li>
+            <li class="list__orderer list__item">Żmijowisko</li>
+            <li class="list__orderer list__item">Drach</li>
+            <li class="list__orderer list__item">Dżuma</li>
+            <li class="list__orderer list__item">Kamienie na szaniec</li>
+            <li class="list__orderer list__item">Myszy i ludzie</li>
+            <li class="list__orderer list__item">Zbrodnia i kara</li>
+        </ol>
+
+    </section>
+
+    <br>
+    <section id="ulubione-utwory-muzyczne" class="containerTable">
+        <h2>Ulubione utwory muzyczne.
+        </h2>
+        <table class="table">
+<p>Dosyć dużo słucham muzyki, której gatunki są naprzeróżniejsze. Uwielbiam Foo Fighters, Muse, 
+    a także coś cięższego jak Slipknot. Nie zapominam także o utworach lżejszych, łatwiej wpadających w ucho :)
+    Poniżej przedstawiam przykładową tabelę, w której ująłem kilka utworów: </p>
+            <caption class="table__caption">Przykładowo wybrane utwory</caption>
+            <tr class="table_row">
+                <th class="table__cell table__header" scope="col">Zespół</th>
+                <th class="table__cell table__header" scope="col">Rok</th>
+                <th class="table__cell table__header" scope="col">Płyta</th>
+                <th class="table__cell table__header" scope="col">Utwór</th>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Mando Diao</th>
+                <td class="table__cell">2004</td>
+                <td class="table__cell">Hurricane Bar</td>
+                <td class="table__cell">All My Senses</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Muse</th>
+                <td class="table__cell">2003</td>
+                <td class="table__cell">Absolution</td>
+                <td class="table__cell">Hysteria</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="row" rowspan="2">Foo Fighters</th>
+                <td class="table__cell">2011</td>
+                <td class="table__cell">Wasting Light</td>
+                <td class="table__cell">Dear Rosemary</td>
+            </tr>
+            <tr class="table__row">
+
+                <td class="table__cell">2021</td>
+                <td class="table__cell" colspan="2">Medicine At Midnight</td>
+
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Miley Cyrus</th>
+                <td class="table__cell">2020</td>
+                <td class="table__cell">Plastic Hearts</td>
+                <td class="table__cell">Midnight Sky</td>
+            </tr>
+        </table>
+    </section>
+
+    <br>
+ 
+    <article class="article" id="moje-marzenie">
+        <h3>Moje marzenie - Dubaj i Burj Al Arab</h3>
+        <p class="article__hotel">Gdy kilkanaście lat temu po raz pierwszy usłyszałem o siedmiogwiazkowym hotelu <a
+                class="article__link" target="_blank" href="https://pl.wikipedia.org/wiki/Burd%C5%BC_al-Arab">Burj Al
+                Arab</a>,
+            zakochałem się w nim od pierwszego wejrzenia. Lata jednak mijały, entuzjazm opadał, marzenia rozmywały się w
+            oparach dotychczasowej codzienności.
+            Aby odzyskać to, co utraciłem, postanowiłem dokształcać się, wyjść poza tak pięknie sformułowaną przez
+            coachów <em>Strefę własnego komfortu.</em>
+            <br><strong>Powiecie mi, że to szalone i nieodpowiedzialne! </strong>Jednak robiąc to poczułem, że w końcu
+            odzyskałem kontrolę nad
+            swoim życiem zawodowym i zacząłem dokształcać się na wielu płaszczyznach. Świat IT daje perspektywy, o
+            których nie będę
+            się rozpisywał, i do 40-tki (zostało mi 4,5 roku) zamierzam swój cel osiągnąć, wyruszając z rodziną do
+            Dubaju, mając w tyle głowy, że po powrocie do
+            domu, wrócę do swojej ukochanej pracy.
+        </article>
+
+        <footer class="footer">
+            Copyright &copy Lukas-K85 Nauka YouCode
+        </footer>
+
+</body>
+
+</html>

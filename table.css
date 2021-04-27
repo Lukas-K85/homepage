@@ -1,0 +1,43 @@
+.containerTable {
+    overflow-x: auto;
+    text-align: justify;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: rgb(179, 177, 177);
+    border: thin 1px darkorange;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.table {
+    font-family: 'Lato', sans-serif;
+    background: rgba(245, 245, 245, 0.486);
+}
+
+.table__cell {
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.table__header {
+    background: rgb(206, 178, 183);
+    color: black;
+}
+
+.table_row:nth-child(even) {
+    background: rgba(204, 204, 204, 0.432)
+}
+
+.table__row:hover {
+    background: rgb(151, 97, 151);
+}
