@@ -8,6 +8,7 @@ html {
 
 .article {
     text-align: justify;
+    text-indent: 20px;
     line-height: 1.7;
     max-width: 1000px;
     margin: 0 auto;
@@ -15,7 +16,12 @@ html {
     border: thin 1px darkorange;
     border-radius: 20px;
     padding: 1%;
-    background: rgb(179, 177, 177);
+    background: url("https://i.postimg.cc/8CD19QYT/Burj-Al-Arab.jpg");
+    background-size: cover;
+}
+
+.article__decorated {
+    color: azure;
 }
 
 .article__hotel {
