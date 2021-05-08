@@ -8,5 +8,10 @@ html {
 
 .body {
     background-color: rgb(218, 214, 231);
-    font-family:'Lexend', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+
+.body--dark {
+    color: #eee;
+    background: #222;
 }
