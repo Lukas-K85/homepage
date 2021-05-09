@@ -1,4 +1,4 @@
-# Łukasz Kalbarczyk - abou me
+# Łukasz Kalbarczyk - about me
 
 
 
