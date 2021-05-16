@@ -1,11 +1,13 @@
-# Łukasz Kalbarczyk - strona o mnie
+# Łukasz Kalbarczyk - about me
 
-## Demo
+### My first website
 
 https://lukas-k85.github.io/homepage/
 
 ![Łukasz](https://i.postimg.cc/brfQLvb7/Photo.jpg)
 
-### Moja pierwsza strona internetowa
-WItam wszystkich odwiedzających moją stronę internetową. W chwili obecnej jest ona jeszcze w powijakach, 
-jednak będzie się rozwijać a wraz z nią ja w świecie IT :)
+Hello everyone!
+This is my first website.
+In this moment is not delightful and highly developed.
+However, I hope the site will grow as I do in the IT world :)
+
