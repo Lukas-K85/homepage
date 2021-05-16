@@ -1,4 +1,4 @@
-.main {
+.div {
     text-align: justify;
     max-width: 1000px;
     margin: 0 auto;
@@ -11,12 +11,12 @@
 
 }
 
-.main__aboutMe {
+.div__aboutMe {
     font-size-adjust: initial;
     line-height: 2.0;
 }
 
-.main__link {
+.div__link {
     background-color: darkorange;
     color: white;
     text-decoration: none;
@@ -24,12 +24,12 @@
     border-radius: 10px;
 }
 
-.main__link:hover {
+.div__link:hover {
     background-color: rgb(52, 67, 131);
     border-bottom: 1px solid;
     outline: none;
 }
 
-.main__link:active {
+.div__link:active {
     background-color: lightblue;
 }
